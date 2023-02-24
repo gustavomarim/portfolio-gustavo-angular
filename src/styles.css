@@ -26,3 +26,9 @@ img {
   height   : auto;
   display  : block;
 }
+
+.max-width {
+  max-width: 1200px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
