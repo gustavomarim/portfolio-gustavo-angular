@@ -1,0 +1,9 @@
+<article class="company">
+  <span class="company-year">{{ companyYear }}</span>
+  <h3 class="company-title">{{ companyTitle }}</h3>
+  <span class="company-title">{{ positionInCompany }}</span>
+  <p class="company-text">{{ dutiesOfPosition }}</p>
+  <ul class="company-skills">
+    <li *ngFor="let skill of companySkills">{{ skill }}</li>
+  </ul>
+</article>
