@@ -27,8 +27,18 @@ img {
   display  : block;
 }
 
-.max-width {
-  max-width: 1200px;
+.subtitle {
+  font-size     : 8em;
+  word-break    : break-all;
+  line-height   : 1;
+  text-transform: uppercase;
+  max-width     : 4ch;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@media(max-width: 800px) {
+  .subtitle {
+    font-size     : 3em;
+    text-transform: capitalize;
+    max-width     : initial !important;
+  }
+}
