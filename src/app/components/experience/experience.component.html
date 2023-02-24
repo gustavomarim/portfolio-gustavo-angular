@@ -1,0 +1,17 @@
+<section class="experience" id="experience">
+  <h2 class="subtitle">Experiência</h2>
+
+  <div>
+    <p class="experience-text">
+      Experiência com desenvolvimento de projetos pessoais utilizando as tecnologias
+      <strong>React, Angular, Typescript e Javascript</strong>
+      no Front-end, e <strong>Node.js, Rest APIs, MySQL </strong> e <strong>SQLServer</strong> no Back-end, integrado
+      com
+      fluxo de versionamento de código Git.
+    </p>
+
+    <app-experience-card *ngFor="let exp of professionalExp" companyYear="{{exp.workingTime}}"
+      companyTitle="{{exp.companyName}}" positionInCompany="{{exp.positionInCompany}}"
+      dutiesOfPosition="{{exp.descriptionOfActivities}}" [companySkills]="exp.companySkills" />
+  </div>
+</section>
