@@ -12,6 +12,8 @@ import { IntroductionComponent } from './components/introduction/introduction.co
 import { MaxDisplayWidthComponent } from './components/layout/max-display-width/max-display-width.component';
 import { ExperienceCardComponent } from './components/template/experience-card/experience-card.component';
 import { HeaderComponent } from './components/template/header/header.component';
+import { AcademicEducationComponent } from './components/academic-education/academic-education.component';
+import { AcademicEducationCardComponent } from './components/template/academic-education-card/academic-education-card.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { HeaderComponent } from './components/template/header/header.component';
     ExperienceComponent,
     ExperienceCardComponent,
     MaxDisplayWidthComponent,
+    AcademicEducationComponent,
+    AcademicEducationCardComponent,
   ],
   imports: [
     BrowserModule,

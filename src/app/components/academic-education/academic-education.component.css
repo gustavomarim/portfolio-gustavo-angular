@@ -1,0 +1,116 @@
+.academic-education {
+  background-color: #141414;
+  color           : #fff;
+}
+
+.academic-education-container {
+  max-width            : 1200px;
+  padding              : 7.5rem 1.25rem;
+  margin               : 0 auto;
+  display              : grid;
+  grid-template-columns: 1fr 2fr;
+  gap                  : 6.25rem;
+  position             : relative;
+}
+
+.academic-education-container::after {
+  content   : "";
+  display   : block;
+  width     : 8.125rem;
+  height    : 6.25rem;
+  background: url("../../../assets/icons/detail.svg") no-repeat center;
+  position  : absolute;
+  bottom    : -3.125rem;
+  left      : 1.25rem;
+}
+
+.academic-education .subtitle {
+  color    : #000;
+  max-width: 5ch;
+}
+
+.academic-education-text {
+  font-style   : 1.5rem;
+  line-height  : 1.33;
+  max-width    : 40ch;
+  margin-bottom: 3.75rem;
+  color        : #a3a3a3;
+}
+
+.academic-education-text strong {
+  color: #fff;
+}
+
+.university-container {
+  display      : flex;
+  flex-wrap    : wrap;
+  gap          : 1.25rem;
+  margin-bottom: 3.75rem;
+}
+
+.courses {
+  margin-bottom: 3.75rem;
+}
+
+.extra-academic-training h3 {
+  font-size     : 0.875rem;
+  line-height   : 1.4;
+  color         : #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom : 1.875rem;
+  position      : relative;
+}
+
+.extra-academic-training h3::before {
+  content : "";
+  display : block;
+  width   : 1.5rem;
+  height  : 1.5rem;
+  position: absolute;
+  left    : -2.25rem;
+  top     : -0.25rem;
+}
+
+.courses h3::before {
+  background: url('../../../assets/icons/courses.svg') no-repeat center center;
+}
+
+.languages h3::before {
+  background: url('../../../assets/icons/languages.svg') no-repeat center center;
+}
+
+.extra-academic-training li {
+  font-size    : 1.125rem;
+  line-height  : 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.extra-academic-training span {
+  color: #8f8f8f;
+}
+
+.extracurricular-courses li {
+  display        : flex;
+  justify-content: space-between;
+}
+
+@media(max-width: 800px) {
+  .academic-education-container {
+    grid-template-columns: 1fr;
+    padding              : 3.75rem 1.25rem;
+    gap                  : 2.5rem;
+  }
+
+  .academic-education .subtitle {
+    color: #fff;
+  }
+
+  .academic-education-text {
+    font-size: 1.25rem;
+  }
+
+  .extra-academic-training h3::before {
+    position     : initial;
+    margin-bottom: 0.625rem;
+  }
+}
