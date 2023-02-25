@@ -1,0 +1,38 @@
+<section class="academic-education" id="academic-education">
+  <div class="academic-education-container">
+    <h2 class="subtitle">Formação</h2>
+
+    <section>
+      <p class="academic-education-text">
+        Minha mais recente experiência acadêmica foi a <strong>graduação</strong> em <strong>Ciência da
+          Computação</strong>. Além disso, me mantenho constantemente atualizado com cursos extracurriculares voltados
+        ao desenvolvimento web.
+      </p>
+
+      <article class="university-container">
+        <app-academic-education-card universityType="bacharel" universityCourse="Ciência da Computação"
+          universityName="UNIP - Universidade Paulista" />
+      </article>
+
+      <div class="extra-academic-training">
+        <div class="courses extracurricular-courses">
+          <h3>Cursos Extracurriculares</h3>
+          <ul>
+            <li *ngFor="let course of extracurricularCourses">
+              {{ course.name }} <span>{{ course.hours }}h</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="languages">
+          <div class="courses courses-languages">
+            <h3>Cursos Intensivos</h3>
+            <ul>
+              <li>Inglês<span>/ Básico</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>

@@ -8,27 +8,27 @@
 }
 
 .profile {
-  width      : 360px;
-  height     : 520px;
-  margin-left: 20px;
+  width      : 22.5rem;
+  height     : 32.5rem;
+  margin-left: 1.25rem;
 }
 
 .introduction article h1 {
   font-size    : 4.5rem;
   line-height  : 1.125;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   position     : relative;
 }
 
 .introduction article h1::before {
   content   : "";
   display   : block;
-  width     : 130px;
-  height    : 100px;
+  width     : 8.125rem;
+  height    : 6.25rem;
   background: url("../../../assets/icons/detail.svg") no-repeat center;
   position  : absolute;
-  top       : -15px;
-  left      : -40px;
+  top       : -0.9375rem;
+  left      : -2.5rem;
   z-index   : -1;
 }
 
@@ -46,7 +46,7 @@
 @media (max-width: 800px) {
   .introduction {
     grid-template-columns: 1fr 1fr;
-    gap                  : 40px;
+    gap                  : 2.5rem;
   }
 
   .introduction article h1 {
@@ -54,9 +54,9 @@
   }
 
   .introduction article h1::before {
-    width : 30px;
-    height: 10px;
-    left  : 0px;
+    width : 1.875rem;
+    height: 0.625rem;
+    left  : 0rem;
   }
 }
 
