@@ -1,0 +1,53 @@
+form {
+  background   : #fff;
+  border-radius: 4px;
+  padding      : 10px;
+}
+
+form h2 {
+  text-transform: uppercase;
+  position      : relative;
+  display       : flex;
+  align-items   : center;
+  color         : #404040;
+  font-size     : 1rem;
+  margin-bottom : 1.875rem;
+}
+
+form h2::before {
+  content         : "";
+  display         : inline-block;
+  width           : 4px;
+  height          : 8px;
+  background-color: #70DA1C;
+  position        : absolute;
+  left            : -6px;
+}
+
+form label {
+  display      : block;
+  font-weight  : 400;
+  font-size    : 1rem;
+  margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+  background   : #fff;
+  border       : 1px solid #ededed;
+  padding      : 12px;
+  border-radius: 4px;
+  width        : 100%;
+  margin-bottom: 20px;
+  box-sizing   : border-box;
+}
+
+input:focus,
+input:hover,
+textarea:hover,
+textarea:focus {
+  outline     : none;
+  border-color: #000;
+  background  : #fff;
+  box-shadow  : 0 0 0 1px #000;
+}
