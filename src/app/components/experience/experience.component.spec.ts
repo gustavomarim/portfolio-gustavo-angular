@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ExperienceCardComponent } from '../template/experience-card/experience-card.component';
 
 import { ExperienceComponent } from './experience.component';
 
@@ -8,7 +9,7 @@ describe('ExperienceComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ExperienceComponent],
+      declarations: [ExperienceComponent, ExperienceCardComponent],
     }).compileComponents();
 
     fixture = TestBed.createComponent(ExperienceComponent);
