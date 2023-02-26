@@ -46,7 +46,7 @@
   display      : flex;
   flex-wrap    : wrap;
   gap          : 0.625rem;
-  align-content: start;
+  align-content: flex-start;
 }
 
 .company-skills li {

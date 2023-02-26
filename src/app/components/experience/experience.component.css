@@ -29,6 +29,10 @@
   }
 
   .experience .subtitle {
+    color: #141414;
+  }
+
+  .experience-text {
     font-size: 1.25rem;
   }
 }
