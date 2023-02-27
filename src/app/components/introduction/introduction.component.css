@@ -65,7 +65,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 670px) {
   .introduction {
     grid-template-columns: 1fr;
   }

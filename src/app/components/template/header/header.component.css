@@ -30,6 +30,11 @@
   display        : block;
 }
 
+.header-menu a:hover {
+  background   : linear-gradient(#70DA1C, #CCF235);
+  border-radius: 6px;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
