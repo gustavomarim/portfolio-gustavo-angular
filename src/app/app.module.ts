@@ -23,6 +23,8 @@ import { ContactFormComponent } from './components/template/contact-form/contact
 import { ExperienceCardComponent } from './components/template/experience-card/experience-card.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { HeaderComponent } from './components/template/header/header.component';
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +40,8 @@ import { HeaderComponent } from './components/template/header/header.component';
     ContactFormComponent,
     MessagesComponent,
     ProjectsComponent,
+    AboutComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
