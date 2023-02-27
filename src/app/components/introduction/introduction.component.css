@@ -13,6 +13,10 @@
   margin-left: 1.25rem;
 }
 
+.profile img {
+  border-radius: 8px;
+}
+
 .introduction article h1 {
   font-size    : 4.5rem;
   line-height  : 1.125;
@@ -33,8 +37,9 @@
 }
 
 .introduction article p {
-  font-size: 1.5rem;
-  color    : #525252;
+  font-size    : 1.5rem;
+  color        : #525252;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1000px) {

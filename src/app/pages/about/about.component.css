@@ -1,0 +1,46 @@
+.about-container {
+  max-width  : 1200px;
+  padding    : 2.5rem 1.25rem;
+  margin     : 0 auto;
+  align-items: center;
+}
+
+a {
+  margin: 2.5rem 1.25rem;
+}
+
+h1 {
+  font-size      : 4.5rem;
+  line-height    : 1.125;
+  margin-bottom  : 1.875rem;
+  text-decoration: underline;
+}
+
+p {
+  font-size    : 1.5rem;
+  color        : #525252;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    grid-template-columns: 1fr 1fr;
+    gap                  : 2.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h1::before {
+    width : 1.875rem;
+    height: 0.625rem;
+    left  : 0rem;
+  }
+}
