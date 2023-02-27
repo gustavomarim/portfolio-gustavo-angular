@@ -31,6 +31,10 @@ img {
   display  : block;
 }
 
+a {
+  text-decoration: none;
+}
+
 .subtitle {
   font-size     : 8em;
   word-break    : break-all;

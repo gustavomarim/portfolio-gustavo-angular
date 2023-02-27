@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 
@@ -15,6 +16,7 @@ import { AcademicEducationComponent } from './components/academic-education/acad
 import { ExperienceComponent } from './components/experience/experience.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { MaxDisplayWidthComponent } from './components/layout/max-display-width/max-display-width.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 import { MessagesComponent } from './components/shared/messages/messages.component';
 import { AcademicEducationCardComponent } from './components/template/academic-education-card/academic-education-card.component';
 import { ContactFormComponent } from './components/template/contact-form/contact-form.component';
@@ -35,6 +37,7 @@ import { HeaderComponent } from './components/template/header/header.component';
     FooterComponent,
     ContactFormComponent,
     MessagesComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +50,7 @@ import { HeaderComponent } from './components/template/header/header.component';
     MatButtonModule,
     MatFormFieldModule,
     MatCardModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

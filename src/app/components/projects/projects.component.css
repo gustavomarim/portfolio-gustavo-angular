@@ -1,0 +1,50 @@
+.project {
+  max-width            : 1200px;
+  padding              : 2.5rem 1.25rem;
+  margin               : 0 auto;
+  display              : grid;
+  grid-template-columns: 1fr 2fr;
+  gap                  : 6.25rem;
+}
+
+.project .subtitle {
+  color: #e0e0e0;
+}
+
+.project-text {
+  font-style   : 1.5rem;
+  line-height  : 1.33;
+  max-width    : 40ch;
+  margin-bottom: 3.75rem;
+  color        : #525252;
+}
+
+.project-text strong {
+  color: #141414;
+}
+
+.project-grid {
+  display              : grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap                  : 20px;
+}
+
+.img {
+  width : 100%;
+  height: 200px;
+}
+
+@media(max-width: 800px) {
+  .project {
+    grid-template-columns: 1fr;
+    gap                  : 2.5rem;
+  }
+
+  .project .subtitle {
+    color: #141414;
+  }
+
+  .project-text {
+    font-size: 1.25rem;
+  }
+}
